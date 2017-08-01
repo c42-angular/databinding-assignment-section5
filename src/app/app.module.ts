@@ -4,10 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { GameControlComponent } from './game-control/game-control.component';
+import { DisplayOddComponent } from './display-odd/display-odd.component';
+import { DisplayEvenComponent } from './display-even/display-even.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GameControlComponent,
+    DisplayOddComponent,
+    DisplayEvenComponent
   ],
   imports: [
     BrowserModule,
